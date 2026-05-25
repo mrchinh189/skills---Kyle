@@ -89,6 +89,24 @@ The frontmatter requires only two fields:
 
 The markdown content below contains the instructions, examples, and guidelines that Claude will follow. For more details, see [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills).
 
+# BA Enterprise Skills (added in this fork)
+
+This fork adds a **Business Analysis skill suite** for enterprise applications, plus visual
+documentation (in Vietnamese) that explains the core ideas of this repo and how a BA — both an
+*Agentic AI BA* and an *IT BA* — can apply them.
+
+- **Docs** ([`./docs`](./docs)): a visual guide to Agent Skills (architecture, progressive
+  disclosure, triggering, the skill-creation loop) and a playbook mapping the BA lifecycle to each
+  skill. Start at [`docs/README.md`](./docs/README.md).
+- **Skills** (the `ba-*` folders under [`./skills`](./skills)): `ba-elicitation`,
+  `ba-requirements-spec`, `ba-user-stories`, `ba-process-modeling`, `ba-stakeholder-mgmt`,
+  `ba-solution-validation`, and `ba-ai-usecase`.
+
+Install the suite via the marketplace plugin:
+```
+/plugin install ba-enterprise-skills@anthropic-agent-skills
+```
+
 # Partner Skills
 
 Skills are a great way to teach Claude how to get better at using specific pieces of software. As we see awesome example skills from partners, we may highlight some of them here:
