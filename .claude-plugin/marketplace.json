@@ -51,5 +51,21 @@
         "./skills/claude-api"
       ]
     }
+    ,
+    {
+      "name": "ba-enterprise-skills",
+      "description": "Business analysis skill suite for enterprise applications: requirements elicitation, BRD/SRS specification, user stories, process modeling (AS-IS/TO-BE), stakeholder management, solution validation/UAT, and AI/Agentic-AI use-case assessment",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ba-elicitation",
+        "./skills/ba-requirements-spec",
+        "./skills/ba-user-stories",
+        "./skills/ba-process-modeling",
+        "./skills/ba-stakeholder-mgmt",
+        "./skills/ba-solution-validation",
+        "./skills/ba-ai-usecase"
+      ]
+    }
   ]
 }
